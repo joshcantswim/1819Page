@@ -1,32 +1,71 @@
+
+/*********Heading Fonts*********/
+h1{
+  font-family: staatliches;
+}
+
+
 #home{
-  background-image: url("./img/placeholder.jpg");
+  background-image: url("./img/circuit.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}    /************* Header **********/
+nav{
+  height: 75px;
+  background-color: black;
+  opacity: 0.8;
 }
+
 ul {
+
   list-style-type: none;
   margin: 0;
-  padding: 15px;
+  padding: 10px;
   overflow: hidden;
-  background-color: #333;
   text-decoration: none;
   width: 100vh;
 
 }
 
 li {
+  color: white;
+  font-family: staatliches;
+  font-size: 24px;
   float: left;
   text-decoration: none;
   list-style-type: none;
   padding: 30px;
 }
+/*************** Submissions ****************/
+.idea{
+  width: 100%;
+   height: 150px;
+   text-align: center;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 4px;
+   background-color: #f8f8f8;
+   font-size: 16px;
+   resize: none;
+};
+.toptext {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 
 .formDiv{
   margin-left: 300px;
   width: 600px;
-  padding-top: 200px;
+  padding-top: 100px;
+
 }
 form{
   width: 600px;
@@ -34,16 +73,18 @@ form{
   padding-left: 100px;
   padding-bottom: 50px;
 }
-
+/************** Meet The Team *************/
 .MeetDiv h1{
   padding-top: 100px;
+  text-align: center;
 }
 
 .IDdiv{
   padding-top: 30px;
   text-align: left;
   width: 200px;
-  float:left;
+  float: left;
+  padding-left: 50px
 }
 
 .IDdiv h3 {
@@ -53,4 +94,8 @@ form{
 
 .IDdiv img{
   padding: none;
+}
+/*************About Page******* */
+.AboutDiv{
+background-color: white;
 }

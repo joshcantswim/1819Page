@@ -5,6 +5,7 @@ import About from './About';
 import MeetTheTeam from './MeetTheTeam';
 import Submissions from './Submissions';
 import Resources from './Resources';
+import 'typeface-staatliches';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -29,6 +30,7 @@ function App() {
  /*Homepage content goes here*/
 const Home = () => (
   <div id="home">
+
   </div>
 );
 
